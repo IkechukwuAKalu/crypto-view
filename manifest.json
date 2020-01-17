@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "CryptoView",
+  "version": "0.0.1",
+  "description": "A crypto currency extension for chrome",
+  "icons": {
+    "128": "images/icons/icon_128x128.png",
+    "48": "images/icons/icon_48x48.png",
+    "16": "images/icons/icon_16x16.png"
+  },
+  "browser_action": {
+    "default_popup": "lib/index.html",
+    "default_icon": "images/icons/icon_16x16.png",
+    "default_title": "CryptoView"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

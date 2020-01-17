@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.mySlides {
+  display: none;
+  cursor: pointer;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.slide-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-weight: 500;
+  background: #0000008F;
+  text-align: left;
+}
+
+.news-source {
+  font-size: 11px;
+  margin: 0;
+  margin-left: 20;
+  color: #cccccc;
+  font-style: italic;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10.5s;
+  animation-name: fade;
+  animation-duration: 10.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1.4} 
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: 1.4} 
+  to {opacity: 2}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 12px}
+}

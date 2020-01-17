@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <title>CryptoView</title>
+</head>
+<body>
+  <div class="root-container">
+    <!-- Ad container goes here -->
+    <div class="ad-container"></div>
+
+    <!-- Slider banner goes here -->
+    <div class="slides-root">
+      <div class="slideshow-container"></div>
+    </div>
+
+    <!-- Main content goes here -->
+    <div>
+      <div class="tab-btns-layer">
+        <div class="tab-btn">Prices</div>
+        <div class="tab-btn">Convert</div>
+      </div>
+      <div class="tab-content prices-tab">
+        <table class="coins-table">
+          <tr>
+            <th class="table-num">#</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Change</th>
+          </tr>
+        </table>
+      </div>
+      <div class="tab-content conversion-tab">
+        <div>
+          <input class="conv-input" id="conv-from" />
+          <br />
+          <br />
+          <input class="conv-input" id="conv-to" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOCK DATA BEGINS -->
+  <script src="../mock_data/coins.js"></script>
+  <!-- MOCK DATA ENDS -->
+  <script src="js/index.js"></script>
+  <script src="js/slideshow.js"></script>
+  <script src="js/aad.js"></script>
+  <script src="js/prices.js"></script>
+</body>
+</html>
