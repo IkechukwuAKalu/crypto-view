@@ -11,7 +11,8 @@ body {
 
 .root-container {
   width: 320px;
-  height: 480px;
+  height: 585px;
+  border: 1px solid #3a3838;
 }
 
 .ad-image {
@@ -56,11 +57,21 @@ body {
   display: block;
 }
 
+.search_box {
+  padding: 5px;
+  border: none;
+  float: right;
+  margin-bottom: 8px;
+}
+
+.clear_float {
+  clear: both;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 1px solid #3a3838;
   border-radius: 10px;
 }
 
