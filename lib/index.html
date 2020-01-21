@@ -36,14 +36,21 @@
             <th>Price</th>
             <th>Change</th>
           </tr>
+          <tbody id="coins-table-body"></tbody>
         </table>
       </div>
       <div class="tab-content conversion-tab">
         <div>
-          <input class="conv-input" id="conv-from" />
+          <div>
+            <input class="conv-input" id="conv-from-val" />
+            <select class="conv-coin" id="conv-from-coin"></select>
+          </div>
           <br />
           <br />
-          <input class="conv-input" id="conv-to" />
+          <div>
+            <input class="conv-input" id="conv-to-val" />
+            <select class="conv-coin" id="conv-to-coin"></select>
+          </div>
         </div>
       </div>
     </div>

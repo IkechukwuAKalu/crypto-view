@@ -41,7 +41,7 @@ body {
 }
 
 .tab-active {
-  background: #3a3838;
+  background: #414040;
 }
 
 .tab-content {
@@ -59,9 +59,12 @@ body {
 
 .search_box {
   padding: 5px;
-  border: none;
+  border: 1px solid #474646;
+  border-radius: 5px;
   float: right;
   margin-bottom: 8px;
+  background: #474646;
+  color: #ffffff;
 }
 
 .clear_float {
@@ -88,8 +91,16 @@ th:first-child, td:first-child {
   text-align: left;
 }
 
+th {
+  color: #aaaaaa;
+}
+
 tr:nth-child(even) {
   background-color: #302e2e
+}
+
+input:focus, select:focus {
+  outline: none;
 }
 
 .loader-container {
@@ -113,12 +124,23 @@ tr:nth-child(even) {
 .conv-input {
   padding: 7px;
   border: 1px solid #aaaaaa;
-  border-radius: 5px;
-  margin: 10px 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin: 10px 0px 10px 20px;
   text-align: center;
   font-size: 18px;
-  width: 85%;
-  user-select: none;
+  width: 65%;
+}
+
+.conv-coin {
+  width: 20%;
+  padding: 7px;
+  border: 1px solid #aaaaaa;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 10px 20px 10px 0px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .loader {
