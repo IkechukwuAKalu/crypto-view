@@ -40,16 +40,22 @@
         </table>
       </div>
       <div class="tab-content conversion-tab">
-        <div>
-          <div>
-            <input class="conv-input" id="conv-from-val" />
-            <select class="conv-coin" id="conv-from-coin"></select>
+        <div class="conv-root">
+          <div class="conv-div">
+            <input class="conv-input" id="conv-from-val" type="number" placeholder="Enter amount" />
+            <select class="conv-coin" id="conv-from-coin">
+              <option value="">Bitcoin</option>
+            </select>
+          </div>
+          <div id="swap-img">
+            <img src="../images/swap.svg" alt="" title="click to toggle currencies">
           </div>
           <br />
-          <br />
-          <div>
-            <input class="conv-input" id="conv-to-val" />
-            <select class="conv-coin" id="conv-to-coin"></select>
+          <div class="conv-div">
+            <input class="conv-input" id="conv-to-val" type="number" placeholder="converting..." disabled />
+            <select class="conv-coin" id="conv-to-coin">
+              <option value="">Ethereum</option>
+            </select>
           </div>
         </div>
       </div>
