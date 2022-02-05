@@ -34,7 +34,7 @@
             <th class="table-num">#</th>
             <th>Name</th>
             <th>Price</th>
-            <th>Change</th>
+            <th>24h Change</th>
           </tr>
           <tbody id="coins-table-body"></tbody>
         </table>
@@ -42,19 +42,17 @@
       <div class="tab-content conversion-tab">
         <div class="conv-root">
           <div class="conv-div">
-            <input class="conv-input" id="conv-from-val" type="number" placeholder="Enter amount" />
+            <input class="conv-input" id="conv-from-val" type="number" placeholder="Amount" />
             <select class="conv-coin" id="conv-from-coin">
-              <option value="">Bitcoin</option>
             </select>
           </div>
-          <div id="swap-img">
-            <img src="../images/swap.svg" alt="" title="click to toggle currencies">
+          <div id="toggle-currencies">
+            <img src="../images/swap.svg" alt="" title="Click to toggle currencies">
           </div>
           <br />
           <div class="conv-div">
-            <input class="conv-input" id="conv-to-val" type="number" placeholder="converting..." disabled />
+            <input class="conv-input" id="conv-to-val" type="number" placeholder="Amount" disabled />
             <select class="conv-coin" id="conv-to-coin">
-              <option value="">Ethereum</option>
             </select>
           </div>
         </div>
@@ -63,12 +61,12 @@
   </div>
 
   <!-- MOCK DATA BEGINS -->
-  <script src="../mock_data/coins.js"></script>
   <script src="../mock_data/news.js"></script>
   <!-- MOCK DATA ENDS -->
   <script src="js/index.js"></script>
   <script src="js/slideshow.js"></script>
   <script src="js/aad.js"></script>
+  <script src="js/convert.js"></script>
   <script src="js/prices.js"></script>
 </body>
 </html>

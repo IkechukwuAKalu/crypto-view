@@ -10,7 +10,7 @@ body {
 }
 
 .root-container {
-  width: 320px;
+  width: 360px;
   height: 585px;
   border: 1px solid #3a3838;
 }
@@ -125,7 +125,7 @@ input:focus, select:focus {
   margin: 30px 10px;
 }
 
-#swap-img {
+#toggle-currencies {
   margin: 18px 0px;
   display: flex;
   justify-content: center;
